@@ -17,3 +17,12 @@ Light_gray = (120,120,120)
 
 player_width = 50
 player_height = 50
+player_x = screen_width // 2 - player_width // 2
+player_y = screen_height - player_height - 10
+player_speed = 10
+
+obstacle_width = 100
+obstacle_height = 20
+obstacle_x = random.randint(0,screen_width)
+obstacle_y = screen_height - player_height - 10
+obstacle_speed = 10
